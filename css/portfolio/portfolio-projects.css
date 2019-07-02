@@ -32,7 +32,7 @@
   text-transform: capitalize;
   transition: all .3s ease-in-out;
 }
-#portfolio-projects .info .buttons .fas{
+#portfolio-projects .info .buttons .fab{
   color: #ff5253;
   margin-right: 10px;
 }
@@ -63,69 +63,29 @@
   text-transform: uppercase;
 }
 #portfolio-projects .technologies .icons{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 20px;
-  align-items: center;
-  justify-items: center;
-
-}
-#portfolio-projects .technologies .icons2{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
     align-items: center;
-}
-#portfolio-projects .technologies .icons3{
-  display: flex;
-justify-content: space-evenly;
-  align-items: center;
 
 }
-#portfolio-projects .technologies .icons img{
+#portfolio-projects .technologies .icons{
   filter: grayscale(100%);
   transition: all .3s ease-in-out;
   cursor: pointer;
 
 }
-#portfolio-projects .technologies .icons2 img{
-  filter: grayscale(100%);
-  transition: all .3s ease-in-out;
-  cursor: pointer;
-}#portfolio-projects .technologies .icons3 img{
-  filter: grayscale(100%);
-  transition: all .3s ease-in-out;
-  cursor: pointer;
-}
-#portfolio-projects .technologies .icons img:hover{
+
+#portfolio-projects .technologies .icons {
 
   filter: grayscale(0);
 }
-#portfolio-projects .technologies .icons2 img:hover{
 
-  filter: grayscale(0);
-}
-#portfolio-projects .technologies .icons3 img:hover{
+#portfolio-projects .technologies .icons .icon{
+  width: 100%;
+  max-width: 60px;
 
-  filter: grayscale(0);
 }
-#portfolio-projects .technologies .icons .icon img{
-  width: 100%;
-  max-width: 60px;
-  height: 100%;
-  max-height: 60px;
-}
-#portfolio-projects .technologies .icons2 .icon img{
-  width: 100%;
-  max-width: 60px;
-  height: 100%;
-  max-height: 60px;
-}
-#portfolio-projects .technologies .icons3 .icon img{
-  width: 100%;
-  max-width: 60px;
-  height: 100%;
-  max-height: 60px;
-}
+
 #portfolio-projects .video{
   text-align: center;
 }
@@ -169,4 +129,15 @@ justify-content: space-evenly;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.icon i{
+  font-size: 60px;
+  display: flex;
+  justify-content: space-evenly;
+    align-items: center;
+}
+.icon i:hover{
+  color: #ff5253;
+  font-size: 60px;
 }

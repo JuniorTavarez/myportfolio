@@ -21,53 +21,20 @@ get_header();
         <div class="technologies">
           <h3>Technologies</h3>
            
-          <?php 
-            $theField = get_field('tech_icon');
-            $theField2 = get_field('tech_icon_2');
-            $theField3 = get_field('tech_icon_3');
-            $theField4 = get_field('tech_icon_4');
-
-            if (!get_field('tech_icon_3')){
-              ?> 
-              <div class="icons3">
+             <div class="icons">
               <div class="icon">
-                <img src="<?php echo $theField ?>">
+              <i class="<?php the_field('tech_icon'); ?>"></i> 
               </div>
               <div class="icon">
-                <img src="<?php  echo $theField2 ?>">
+              <i class="<?php the_field('tech_icon_2'); ?>"></i> 
               </div>
+              <div class="icon">
+              <i class="<?php the_field('tech_icon_3'); ?>"></i> 
               </div>
-           <?php }
-           elseif (!get_field('tech_icon_4')) {
-            ?> 
-            <div class="icons2">
-            <div class="icon">
-              <img src="<?php echo $theField ?>">
-            </div>
-            <div class="icon">
-              <img src="<?php  echo $theField2 ?>">
-            </div>
-            <div class="icon">
-              <img src="<?php echo $theField3 ?>">
-            </div>
-            </div>
-         <?php }
-     else {?>
-          <div class="icons">
-            <div class="icon">
-              <img src="<?php echo $theField ?>">
-            </div>
-            <div class="icon">
-              <img src="<?php  echo $theField2 ?>">
-            </div>
-            <div class="icon">
-              <img src="<?php echo $theField3 ?>">
-            </div>
-            <div class="icon">
-              <img src="<?php echo $theField4 ?>">
-            </div>
-          </div>
-     <?php } ?>
+              <div class="icon">
+              <i class="<?php the_field('tech_icon_4'); ?>"></i> 
+              </div>
+    </div>
         </div>
         <div class="video">
           <h3>Video Walkthrough</h3>
