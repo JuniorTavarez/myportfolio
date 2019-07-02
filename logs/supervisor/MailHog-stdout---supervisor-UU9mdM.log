@@ -1,0 +1,128 @@
+[HTTP] Binding to address: :1080
+Creating API v1 with WebPath: 
+Creating API v2 with WebPath: 
+Got message in APIv2 websocket channel
+[APIv2] BROADCAST /api/v2/websocket
+Got message in APIv1 event stream
+Sending content: {
+  "ID": "V8RCnAMQJ7eCO0rDhf30c0ibUeXcyQft00aEr6ElRvQ=@mailhog.example",
+  "From": {
+    "Relays": null,
+    "Mailbox": "nobody",
+    "Domain": "e3c9fc03d72e",
+    "Params": ""
+  },
+  "To": [
+    {
+      "Relays": null,
+      "Mailbox": "mailhog",
+      "Domain": "flywheel.local",
+      "Params": ""
+    }
+  ],
+  "Content": {
+    "Headers": {
+      "Content-Type": [
+        "text/plain; charset=UTF-8"
+      ],
+      "Date": [
+        "Sat, 29 Jun 2019 12:48:09 +0000"
+      ],
+      "From": [
+        "WordPress \u003cwordpress@myportfolio.local\u003e"
+      ],
+      "MIME-Version": [
+        "1.0"
+      ],
+      "Message-ID": [
+        "\u003cd094ecd924c1dfeae571f5e98be87296@myportfolio.local\u003e"
+      ],
+      "Received": [
+        "from localhost by mailhog.example (MailHog)\r\n          id V8RCnAMQJ7eCO0rDhf30c0ibUeXcyQft00aEr6ElRvQ=@mailhog.example; Sat, 29 Jun 2019 12:48:09 +0000"
+      ],
+      "Return-Path": [
+        "\u003cnobody@e3c9fc03d72e\u003e"
+      ],
+      "Subject": [
+        "New WordPress Site"
+      ],
+      "To": [
+        "Jtavarez8@gmail.com"
+      ],
+      "X-Mailer": [
+        "PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)"
+      ],
+      "X-PHP-Originating-Script": [
+        "0:class-phpmailer.php"
+      ]
+    },
+    "Body": "Your new WordPress site has been successfully set up at:\r\n\r\nhttp://myportfolio.local\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: Junior\r\nPassword: The password you chose during installation.\r\nLog in here: http://myportfolio.local/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Size": 770,
+    "MIME": null
+  },
+  "Created": "2019-06-29T12:48:09.049050622Z",
+  "MIME": null,
+  "Raw": {
+    "From": "nobody@e3c9fc03d72e",
+    "To": [
+      "mailhog@flywheel.local"
+    ],
+    "Data": "To: Jtavarez8@gmail.com\r\nSubject: New WordPress Site\r\nX-PHP-Originating-Script: 0:class-phpmailer.php\r\nDate: Sat, 29 Jun 2019 12:48:09 +0000\r\nFrom: WordPress \u003cwordpress@myportfolio.local\u003e\r\nMessage-ID: \u003cd094ecd924c1dfeae571f5e98be87296@myportfolio.local\u003e\r\nX-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\n\r\nYour new WordPress site has been successfully set up at:\r\n\r\nhttp://myportfolio.local\r\n\r\nYou can log in to the administrator account with the following information:\r\n\r\nUsername: Junior\r\nPassword: The password you chose during installation.\r\nLog in here: http://myportfolio.local/wp-login.php\r\n\r\nWe hope you enjoy your new site. Thanks!\r\n\r\n--The WordPress Team\r\nhttps://wordpress.org/\r\n",
+    "Helo": "localhost"
+  }
+}
+
+[APIv1] BROADCAST /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
+[APIv1] KEEPALIVE /api/v1/events
