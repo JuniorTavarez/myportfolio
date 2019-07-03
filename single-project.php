@@ -23,16 +23,16 @@ get_header();
            
              <div class="icons">
               <div class="icon">
-              <i class="<?php the_field('tech_icon'); ?>"></i> 
+              <?php the_field('tech_icon'); ?>
               </div>
               <div class="icon">
-              <i class="<?php the_field('tech_icon_2'); ?>"></i> 
+              <?php the_field('tech_icon_2'); ?>
               </div>
               <div class="icon">
-              <i class="<?php the_field('tech_icon_3'); ?>"></i> 
+              <?php the_field('tech_icon_3'); ?>
               </div>
               <div class="icon">
-              <i class="<?php the_field('tech_icon_4'); ?>"></i> 
+              <?php the_field('tech_icon_4'); ?>
               </div>
     </div>
         </div>
