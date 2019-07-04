@@ -9,7 +9,7 @@
 @import "portfolio/portfolio-projects.css";
 @import "templates/page.css";
 @import "footer-section.css";
-@import "contact-section.css";
+@import "landing-page/contact-section.css";
 
 .container{
   max-width: 1150px;

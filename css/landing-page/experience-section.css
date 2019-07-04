@@ -1,5 +1,6 @@
 #experience-section{
   padding: 80px 15px;
+  margin-bottom: 2rem;
 }
 
 #experience-section .large-title{
@@ -152,6 +153,7 @@
 
   #experience-section .experience-container{
     grid-template-columns: 1fr;
+    
   }
   #experience-section .experience-container .large-icons{
     display: none;
